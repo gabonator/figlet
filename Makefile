@@ -38,9 +38,9 @@ BINDIR	= $(prefix)/bin
 MANDIR	= $(prefix)/man
 
 # Where figlet will search first for fonts (the ".flf" files).
-DEFAULTFONTDIR = $(prefix)/share/figlet
+#DEFAULTFONTDIR = $(prefix)/share/figlet
 # Use this definition if you can't put things in $(prefix)/share/figlet
-#DEFAULTFONTDIR = fonts
+DEFAULTFONTDIR = fonts
 
 # The filename of the font to be used if no other is specified,
 #   without suffix.(standard is recommended, but any other can be
